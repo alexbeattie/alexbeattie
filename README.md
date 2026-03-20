@@ -21,10 +21,6 @@ Intelligent query routing that classifies complexity with zero-latency heuristic
 
 **Stack:** Python, Ollama, regex-based classification
 
-### [aurora-postgresql-pgvector](https://github.com/alexbeattie/aurora-postgresql-pgvector)
-Agentic AI use cases with pgvector on Aurora PostgreSQL and Amazon Bedrock. Vector similarity search at scale with managed AWS infrastructure.
-
-**Stack:** Python, AWS Bedrock, Aurora PostgreSQL, pgvector
 
 ## Production Apps
 
