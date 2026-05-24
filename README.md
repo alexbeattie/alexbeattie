@@ -21,9 +21,9 @@ Founder/engineer case study for a nonprofit startup platform helping families fi
 
 **Stack:** Python, Django, Django REST Framework, PostgreSQL, PostGIS, Vue, Mapbox, SwiftUI, AWS Bedrock, Strands, Cohere, Pinecone
 
-### Production Health AI Backend
+### Ourself Health / Stella
 
-Backend and AI architecture for a production health assistant: source-grounded RAG, streaming responses, clinical knowledge retrieval, Langfuse observability, evaluation workflows, and mobile/backend contracts.
+Backend and AI architecture for Stella at Ourself Health: a production health assistant with source-grounded RAG, streaming responses, clinical knowledge retrieval, Langfuse observability, evaluation workflows, and mobile/backend contracts.
 
 **Stack:** Python, Django, Strawberry GraphQL, AWS Bedrock, pgvector, Aurora PostgreSQL, ECS Fargate, Langfuse, Auth0, Flutter
 
