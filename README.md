@@ -2,6 +2,8 @@
 
 Senior AI/LLM engineer focused on production AI systems, scalable Django/Python backends, RAG pipelines, Langfuse evaluation workflows, Strands agents, Pinecone/Cohere retrieval, and cloud infrastructure for healthcare software.
 
+Currently building backend and AI systems for Stella at Ourself Health.
+
 [alexbeattie.com](https://alexbeattie.com) · [AI Engineer](https://alexbeattie.com/ai-engineer/) · [Projects](https://alexbeattie.com/projects/) · [LinkedIn](https://linkedin.com/in/alexbeattie)
 
 ## What I Work On
