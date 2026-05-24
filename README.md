@@ -1,14 +1,14 @@
 # Alex Beattie
 
-Senior AI/LLM engineer focused on production AI systems, scalable Django/Python backends, RAG pipelines, LLM evaluation, and cloud infrastructure for healthcare software.
+Senior AI/LLM engineer focused on production AI systems, scalable Django/Python backends, RAG pipelines, Langfuse evaluation workflows, Strands agents, Pinecone/Cohere retrieval, and cloud infrastructure for healthcare software.
 
 [alexbeattie.com](https://alexbeattie.com) · [AI Engineer](https://alexbeattie.com/ai-engineer/) · [Projects](https://alexbeattie.com/projects/) · [LinkedIn](https://linkedin.com/in/alexbeattie)
 
 ## What I Work On
 
-- **Production AI systems:** routing, tool selection, safety gates, source metadata, and observable decision flows
-- **RAG and retrieval:** pgvector, Pinecone, source metadata, query rewriting, grounding, and retrieval evaluation
-- **LLM evaluation:** gold-case evals, LLM-as-judge workflows, deterministic retrieval metrics, and live trace scoring
+- **Production AI systems:** routing, tool selection, safety gates, source metadata, Strands agent behavior, and observable decision flows
+- **RAG and retrieval:** pgvector, Pinecone, Cohere embeddings, source metadata, query rewriting, grounding, and retrieval evaluation
+- **LLM evaluation:** Langfuse traces, gold-case evals, LLM-as-judge workflows, deterministic retrieval metrics, and live trace scoring
 - **Backend architecture:** Django, Python, GraphQL, PostgreSQL/PostGIS, Redis, and API contracts
 - **Cloud infrastructure:** AWS Bedrock, ECS, Aurora, S3, CloudFront, GitHub Actions, and cost optimization
 - **Mobile-connected systems:** Flutter, SwiftUI, streaming APIs, auth flows, and mobile/backend contracts
