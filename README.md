@@ -1,75 +1,50 @@
 # Alex Beattie
 
-I build production AI systems, agent tooling, and healthcare software.
+Senior AI/LLM engineer focused on production AI systems, scalable Django/Python backends, RAG pipelines, LLM evaluation, and cloud infrastructure for healthcare software.
 
-Recently I have been focused on retrieval-augmented generation, MCP servers,
-LLM evaluation, AWS Bedrock, and mobile/backend systems that ship to real users.
+[alexbeattie.com](https://alexbeattie.com) · [AI Engineer](https://alexbeattie.com/ai-engineer/) · [Projects](https://alexbeattie.com/projects/) · [LinkedIn](https://linkedin.com/in/alexbeattie)
 
-[Blog](https://alexbeattie.com) | [LinkedIn](https://linkedin.com/in/alexbeattie)
+## What I Work On
 
-## Featured Work
+- **Production AI systems:** routing, tool selection, safety gates, source metadata, and observable decision flows
+- **RAG and retrieval:** pgvector, Pinecone, source metadata, query rewriting, grounding, and retrieval evaluation
+- **LLM evaluation:** gold-case evals, LLM-as-judge workflows, deterministic retrieval metrics, and live trace scoring
+- **Backend architecture:** Django, Python, GraphQL, PostgreSQL/PostGIS, Redis, and API contracts
+- **Cloud infrastructure:** AWS Bedrock, ECS, Aurora, S3, CloudFront, GitHub Actions, and cost optimization
+- **Mobile-connected systems:** Flutter, SwiftUI, streaming APIs, auth flows, and mobile/backend contracts
+
+## Featured Projects
+
+### [KiNDD / NDD Resource Navigator](https://alexbeattie.com/projects/kindd-ndd-resource-navigator/)
+
+Founder/engineer case study for a nonprofit startup platform helping families find developmental disability services across Los Angeles County. The project started as a commissioned web mapping system and grew into a live web platform, iOS app, Django/PostGIS backend, Bedrock AI assistance, and a Cohere/Pinecone research RAG stack.
+
+**Stack:** Python, Django, Django REST Framework, PostgreSQL, PostGIS, Vue, Mapbox, SwiftUI, AWS Bedrock, Strands, Cohere, Pinecone
+
+### Production Health AI Backend
+
+Backend and AI architecture for a production health assistant: source-grounded RAG, streaming responses, clinical knowledge retrieval, Langfuse observability, evaluation workflows, and mobile/backend contracts.
+
+**Stack:** Python, Django, Strawberry GraphQL, AWS Bedrock, pgvector, Aurora PostgreSQL, ECS Fargate, Langfuse, Auth0, Flutter
 
 ### Unified Connectors MCP Server
-An installable Python package and MCP server that lets AI agents work across
-GitHub, Slack, Jira, Confluence, Google Docs, and Miro from one consistent
-action layer. Includes a CLI, provider connectors, OAuth refresh handling,
-webhook helpers, and a full test suite.
 
-**Stack:** Python, Model Context Protocol, FastMCP, OAuth 2.0, GitHub API,
-Slack API, Atlassian Cloud, Google Docs/Drive API, Miro API
+An installable Python package and MCP server that lets AI agents work across GitHub, Slack, Jira, Confluence, Google Docs, and Miro from one consistent action layer. Includes a CLI, provider connectors, OAuth refresh handling, webhook helpers, and tests.
 
-### Ourself Health / Stella
-Production health AI backend for Stella, an LLM-powered assistant with
-source-grounded RAG, streaming responses, clinical knowledge retrieval,
-Langfuse observability, and evaluation workflows. Runs on Django, Strawberry
-GraphQL, AWS ECS Fargate, Aurora PostgreSQL/pgvector, Bedrock, Auth0, and
-Flutter mobile clients.
+**Stack:** Python, Model Context Protocol, FastMCP, OAuth 2.0, GitHub API, Slack API, Atlassian Cloud, Google Docs/Drive API, Miro API
 
-**Stack:** Python, Django, Strawberry GraphQL, AWS Bedrock, pgvector, Aurora,
-ECS Fargate, Langfuse, Auth0, Flutter
+## Selected Writing
 
-### [obsidian-rag](https://github.com/alexbeattie/obsidian-rag)
-Local-first RAG pipeline that indexes an Obsidian vault into ChromaDB using
-heading-aware semantic chunking and Ollama embeddings. Includes an MCP server
-so coding agents can query the vault during development, plus a REPL with
-streaming responses and citations.
-
-**Stack:** Python, ChromaDB, Ollama, FastMCP, nomic-embed-text, mistral-nemo
-
-### [llm-eval-harness](https://github.com/alexbeattie/llm-eval-harness)
-Small evaluation framework for RAG systems: retrieval metrics, LLM-as-judge
-response scoring, and claim-level hallucination checks without a heavy
-framework dependency.
-
-**Stack:** Python, Ollama, LLM-as-judge evaluation
-
-### [model-router](https://github.com/alexbeattie/model-router)
-Query router that classifies request complexity and sends simple requests to a
-fast local model while reserving stronger models for harder tasks.
-
-**Stack:** Python, Ollama, routing heuristics, cost-aware inference
-
-## Shipped Apps
-
-### [CHLA / KiNDD Resource Navigator](https://github.com/alexbeattie/CHLA)
-Healthcare provider mapping app with a Django/PostGIS backend and native
-SwiftUI iOS app. Uses AWS Bedrock and Strands SDK for AI-powered search.
-[Live on the App Store.](https://apps.apple.com/us/app/kindd-resource-navigator/id6756593861)
-
-**Stack:** Python, Django, PostGIS, AWS Bedrock, SwiftUI, iOS
-
-### [OneStepGPS](https://github.com/alexbeattie/OneStepGPS)
-Real-time GPS vehicle tracking app with a Vue.js frontend and Go backend.
-
-**Stack:** Vue.js, Go, REST APIs
+- [Designing Production AI Routing And Evals For A Healthcare Assistant](https://alexbeattie.com/production-ai-routing-evals-healthcare-assistant/)
+- [Lessons From Bedrock, pgvector, And RAG In Production](https://alexbeattie.com/bedrock-pgvector-rag-production-lessons/)
+- [Streaming LLM Architecture Patterns: Sources, Done Events, And Observability](https://alexbeattie.com/streaming-llm-architecture-patterns/)
 
 ## Tools I Reach For
 
-**AI/Agents:** RAG pipelines, MCP servers, multi-agent orchestration,
-LLM-as-judge evals, model routing, vector search, Ollama, AWS Bedrock
+**AI/Agents:** RAG pipelines, MCP servers, multi-agent orchestration, LLM-as-judge evals, model routing, vector search, AWS Bedrock, Claude, Cohere, Pinecone
 
-**Backend:** Python, Django, GraphQL, Go, Node.js, REST APIs, Postgres
+**Backend:** Python, Django, GraphQL, REST APIs, PostgreSQL, PostGIS, Redis
 
-**Cloud:** AWS ECS, Lambda, Bedrock, Aurora, S3, Docker, GitHub Actions
+**Cloud:** AWS ECS, Lambda, Bedrock, Aurora, S3, CloudFront, Docker, GitHub Actions
 
 **Frontend & Mobile:** Flutter, SwiftUI, Vue.js, React
