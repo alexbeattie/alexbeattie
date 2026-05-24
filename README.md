@@ -1,6 +1,6 @@
 # Alex Beattie
 
-Senior AI/LLM engineer focused on production AI systems, scalable Django/Python backends, RAG pipelines, Langfuse evaluation workflows, Strands agents, Pinecone/Cohere retrieval, and cloud infrastructure for healthcare software.
+Senior AI/LLM engineer and founding engineer focused on production AI systems, scalable Django/Python backends, RAG pipelines, Langfuse evaluation workflows, Strands agents, Pinecone/Cohere retrieval, and cloud infrastructure for healthcare software.
 
 Currently building backend and AI systems for Stella at Ourself Health.
 
@@ -11,9 +11,11 @@ Currently building backend and AI systems for Stella at Ourself Health.
 - **Production AI systems:** routing, tool selection, safety gates, source metadata, Strands agent behavior, and observable decision flows
 - **RAG and retrieval:** pgvector, Pinecone, Cohere embeddings, source metadata, query rewriting, grounding, and retrieval evaluation
 - **LLM evaluation:** Langfuse traces, gold-case evals, LLM-as-judge workflows, deterministic retrieval metrics, and live trace scoring
+- **Model economics:** cost-aware routing, token analytics, budget alerts, and smaller-model paths for simple queries
 - **Backend architecture:** Django, Python, GraphQL, PostgreSQL/PostGIS, Redis, and API contracts
 - **Cloud infrastructure:** AWS Bedrock, ECS, Aurora, S3, CloudFront, GitHub Actions, and cost optimization
 - **Mobile-connected systems:** Flutter, SwiftUI, streaming APIs, auth flows, and mobile/backend contracts
+- **AI development workflows:** Cursor custom rules/skills, Claude Code, MCP servers, and IDE-native engineering context
 
 ## Featured Projects
 
@@ -29,7 +31,7 @@ Backend and AI architecture for Stella at Ourself Health: a production health as
 
 **Stack:** Python, Django, Strawberry GraphQL, AWS Bedrock, pgvector, Aurora PostgreSQL, ECS Fargate, Langfuse, Auth0, Flutter
 
-### Unified Connectors MCP Server
+### [Unified Connectors MCP Server](https://alexbeattie.com/projects/unified-connectors-mcp-server/)
 
 An installable Python package and MCP server that lets AI agents work across GitHub, Slack, Jira, Confluence, Google Docs, and Miro from one consistent action layer. Includes a CLI, provider connectors, OAuth refresh handling, webhook helpers, and tests.
 
