@@ -18,9 +18,7 @@ The product covers **all seven LA County Regional Centers and over 300 providers
 
 **Stack:** Python, Django, Django REST Framework, PostgreSQL, PostGIS, Vue, Mapbox, SwiftUI, AWS Bedrock.
 
-### Rare Disease Research
-
-I'm the software engineer on a **UCLA and Dup15q Alliance research team**, contributing engineering to research on clinical features and trajectories in a rare neurodevelopmental disorder.
+My work with KiNDD also includes an **Anthropic grant**.
 
 ### Ourself Health / Stella
 
@@ -30,9 +28,9 @@ I built source metadata and grounding into the response flow, Langfuse observabi
 
 **Stack:** Python, Django, Strawberry GraphQL, AWS Bedrock, pgvector, Aurora PostgreSQL, ECS Fargate, Redis, Langfuse, Auth0, Flutter.
 
-### TECHNIA / Agentic AI Engineering
+### TECHNIA / Software Tools
 
-Before McKinsey, I worked as an **Agentic AI Software Engineer at TECHNIA**, building AI tooling and applications around product lifecycle management systems. This extended my work in enterprise software, backend integration, and turning complex technical requirements into usable applications.
+Before joining McKinsey, I built software tools at **TECHNIA**.
 
 ### Unified Connectors MCP Server
 
