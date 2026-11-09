@@ -18,9 +18,9 @@ The product covers **all seven LA County Regional Centers and over 300 providers
 
 **Stack:** Python, Django, Django REST Framework, PostgreSQL, PostGIS, Vue, Mapbox, SwiftUI, AWS Bedrock.
 
-### AI for Science Rare Disease Research
+### Rare Disease Research
 
-I'm the software engineer on a **UCLA and Dup15q Alliance research team** selected for one of [Anthropic's AI for Science rare disease research grants](https://www.anthropic.com/news/ai-for-science-rare-disease-research-grants). I contribute engineering to the team's work on clinical features and trajectories in a rare neurodevelopmental disorder.
+I'm the software engineer on a **UCLA and Dup15q Alliance research team**, contributing engineering to research on clinical features and trajectories in a rare neurodevelopmental disorder.
 
 ### Ourself Health / Stella
 
