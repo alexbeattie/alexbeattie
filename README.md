@@ -1,54 +1,60 @@
 # Alex Beattie
 
-Senior AI/LLM engineer and founding engineer focused on production AI systems, scalable Django/Python backends, RAG pipelines, Langfuse evaluation workflows, Strands agents, Pinecone/Cohere retrieval, and cloud infrastructure for healthcare software.
+**Forward Deployed Engineer at McKinsey & Company · AI Engineer · Founder of KiNDD**
 
-Currently building backend and AI systems for Stella at [Ourself Health](https://ourself.health).
+I'm an engineer based in Los Angeles with 14+ years of experience building software across backend systems, cloud infrastructure, mobile apps, and AI. I joined **McKinsey & Company as a Forward Deployed Engineer in October 2026**.
 
-[alexbeattie.com](https://alexbeattie.com) · [AI Engineer](https://alexbeattie.com/ai-engineer/) · [Projects](https://alexbeattie.com/projects/) · [LinkedIn](https://linkedin.com/in/alexbeattie)
+I take systems from architecture through implementation, deployment, and ongoing operation. My engineering work includes production AI agents, retrieval, evaluation, streaming APIs, geospatial products, and tools that help developers work with AI.
 
-## What I Work On
+[Website](https://alexbeattie.com) · [AI Engineering](https://alexbeattie.com/ai-engineer/) · [Projects](https://alexbeattie.com/projects/) · [LinkedIn](https://linkedin.com/in/alexbeattie)
 
-- **Production AI systems:** routing, tool selection, safety gates, source metadata, Strands agent behavior, and observable decision flows
-- **RAG and retrieval:** pgvector, Pinecone, Cohere embeddings, source metadata, query rewriting, grounding, and retrieval evaluation
-- **LLM evaluation:** Langfuse traces, gold-case evals, LLM-as-judge workflows, deterministic retrieval metrics, and live trace scoring
-- **Model economics:** cost-aware routing, token analytics, budget alerts, and smaller-model paths for simple queries
-- **Backend architecture:** Django, Python, GraphQL, PostgreSQL/PostGIS, Redis, and API contracts
-- **Cloud infrastructure:** AWS Bedrock, ECS, Aurora, S3, CloudFront, GitHub Actions, and cost optimization
-- **Mobile-connected systems:** Flutter, SwiftUI, streaming APIs, auth flows, and mobile/backend contracts
-- **AI development workflows:** Cursor custom rules/skills, Claude Code, MCP servers, and IDE-native engineering context
+## Selected Work & Accomplishments
 
-## Featured Projects
+### KiNDD / NDD Resource Navigator
 
-### [KiNDD / NDD Resource Navigator](https://alexbeattie.com/projects/kindd-ndd-resource-navigator/)
+I founded and built [KiNDD](https://alexbeattie.com/projects/kindd-ndd-resource-navigator/), a nonprofit platform helping families navigate autism and developmental disability services in Los Angeles County. It grew from a commissioned web mapping project into a [live web platform](https://kinddhelp.org) and a [published iOS app](https://apps.apple.com/us/app/kindd-resource-navigator/id6756593861).
 
-Founder/engineer case study for a nonprofit startup platform helping families find developmental disability services across Los Angeles County. The project started as a commissioned web mapping system and grew into a live web platform, iOS app, Django/PostGIS backend, Bedrock AI assistance, and a Cohere/Pinecone research RAG stack.
+The product covers **all seven LA County Regional Centers and over 300 providers**, with English and Spanish support. I built the geographic service-matching logic, provider search, Django/PostGIS backend, web map, and SwiftUI app. The app also includes AI navigation assistance and practical next-step guidance for families.
 
-**Stack:** Python, Django, Django REST Framework, PostgreSQL, PostGIS, Vue, Mapbox, SwiftUI, AWS Bedrock, Strands, Cohere, Pinecone
+**Stack:** Python, Django, Django REST Framework, PostgreSQL, PostGIS, Vue, Mapbox, SwiftUI, AWS Bedrock.
 
-### [Ourself Health / Stella](https://ourself.health)
+### AI for Science Rare Disease Research
 
-Backend and AI architecture for Stella at Ourself Health: a production health assistant with source-grounded RAG, streaming responses, clinical knowledge retrieval, Langfuse observability, evaluation workflows, and mobile/backend contracts.
+I'm the software engineer on a **UCLA and Dup15q Alliance research team** selected for one of [Anthropic's AI for Science rare disease research grants](https://www.anthropic.com/news/ai-for-science-rare-disease-research-grants). I contribute engineering to the team's work on clinical features and trajectories in a rare neurodevelopmental disorder.
 
-**Stack:** Python, Django, Strawberry GraphQL, AWS Bedrock, pgvector, Aurora PostgreSQL, ECS Fargate, Langfuse, Auth0, Flutter
+### Ourself Health / Stella
 
-### [Unified Connectors MCP Server](https://alexbeattie.com/projects/unified-connectors-mcp-server/)
+In my previous role as the sole AI and backend engineer at [Ourself Health](https://ourself.health), I architected **Stella**, a production health assistant. My work brought together retrieval, tool-enabled agents, model routing, persistent memory, safety controls, and streaming responses.
 
-An installable Python package and MCP server that lets AI agents work across GitHub, Slack, Jira, Confluence, Google Docs, and Miro from one consistent action layer. Includes a CLI, provider connectors, OAuth refresh handling, webhook helpers, and tests.
+I built source metadata and grounding into the response flow, Langfuse observability and evaluation workflows, and the API contracts connecting the AI/backend systems to the Flutter app. I also worked on cost-aware routing and the AWS infrastructure needed to operate the system.
 
-**Stack:** Python, Model Context Protocol, FastMCP, OAuth 2.0, GitHub API, Slack API, Atlassian Cloud, Google Docs/Drive API, Miro API
+**Stack:** Python, Django, Strawberry GraphQL, AWS Bedrock, pgvector, Aurora PostgreSQL, ECS Fargate, Redis, Langfuse, Auth0, Flutter.
+
+### TECHNIA / Agentic AI Engineering
+
+Before McKinsey, I worked as an **Agentic AI Software Engineer at TECHNIA**, building AI tooling and applications around product lifecycle management systems. This extended my work in enterprise software, backend integration, and turning complex technical requirements into usable applications.
+
+### Unified Connectors MCP Server
+
+I built [Unified Connectors](https://alexbeattie.com/projects/unified-connectors-mcp-server/), a Python package and MCP server that gives AI agents a consistent action layer across **GitHub, Slack, Jira, Confluence, Google Docs/Drive, and Miro**.
+
+It exposes an MCP server, CLI, Python API, and Django management command, with typed provider actions, OAuth refresh handling, webhook helpers, and tests. The aim is to make engineering context available inside the IDE, terminal, and agent workflow.
+
+### Artisan Branding & Long-Term Product Ownership
+
+I founded **Artisan Branding in 2010**, combining software development, web design, photography, and digital content. I also spent 13 years as the sole technologist at Sherwood Development Company, owning software, automation, integrations, and technical operations end to end.
+
+## Engineering Focus
+
+- **Production AI:** agent orchestration, tool selection, safety controls, model routing, streaming, and source metadata.
+- **Retrieval and evaluation:** RAG, pgvector, Pinecone, Cohere, query rewriting, Langfuse, gold-case evaluations, and retrieval metrics.
+- **Backend and cloud:** Python, Django, GraphQL, REST APIs, PostgreSQL/PostGIS, Redis, AWS Bedrock, ECS, Lambda, Aurora, S3, Docker, and GitHub Actions.
+- **Web and mobile:** TypeScript, React, Vue, SwiftUI, Flutter, authentication, and mobile/backend contracts.
+- **Developer tooling:** MCP servers, Claude Code, Cursor rules and skills, and AI-assisted engineering workflows.
 
 ## Selected Writing
 
-- [Designing Production AI Routing And Evals For A Healthcare Assistant](https://alexbeattie.com/production-ai-routing-evals-healthcare-assistant/)
-- [Lessons From Bedrock, pgvector, And RAG In Production](https://alexbeattie.com/bedrock-pgvector-rag-production-lessons/)
-- [Streaming LLM Architecture Patterns: Sources, Done Events, And Observability](https://alexbeattie.com/streaming-llm-architecture-patterns/)
-
-## Tools I Reach For
-
-**AI/Agents:** RAG pipelines, MCP servers, multi-agent orchestration, LLM-as-judge evals, model routing, vector search, AWS Bedrock, Claude, Cohere, Pinecone
-
-**Backend:** Python, Django, GraphQL, REST APIs, PostgreSQL, PostGIS, Redis
-
-**Cloud:** AWS ECS, Lambda, Bedrock, Aurora, S3, CloudFront, Docker, GitHub Actions
-
-**Frontend & Mobile:** Flutter, SwiftUI, Vue.js, React
+- [Building A Geospatial Care-Navigation Platform For Developmental Disability Services](https://alexbeattie.com/geospatial-care-navigation-developmental-disability-services/)
+- [Designing AI Assistance For A Public-Interest Healthcare Navigator](https://alexbeattie.com/ai-assistance-public-interest-healthcare-navigator/)
+- [From Commissioned Website To Nonprofit Startup: The KiNDD Technical Journey](https://alexbeattie.com/commissioned-website-to-nonprofit-startup-kindd/)
+- [How I Built a Local RAG System for My Obsidian Notes](https://alexbeattie.com/building-local-rag-pipeline/)
